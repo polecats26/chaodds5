@@ -1,0 +1,21 @@
+header {
+	width: 100%;
+	padding: .75rem 0;
+	background-color: #fff;
+	border-bottom: thin solid #ccc;
+	
+	
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	font-size: .75rem;
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		font-size: .75rem;
+	}
+}
