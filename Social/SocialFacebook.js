@@ -15,14 +15,14 @@ const NavIcon = styled.img`
 
 
 const SocialIconContainer = styled.div`
-    height: 8vw;
-    width: 8vw;
+    height: 40px;
+    width: 40px;
 	text-align: center;
 	margin-bottom: 5px;
 	display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4vw;
+    border-radius: 20px;
     background-color: #111;
     color: #fff;
     text-align: center;
