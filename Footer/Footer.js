@@ -8,6 +8,14 @@ import './Footer.css'
 const FooterContainer = styled.div`
     background-color: #222;
     padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        padding: 2rem 2rem 7.5rem 2rem;
+    }
 `;
 
 const FooterContent = styled.div`

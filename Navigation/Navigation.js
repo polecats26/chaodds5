@@ -22,6 +22,7 @@ const NavContainer = styled.div`
 		display: inline-block;
 		border-top: none;
 	}
+	z-index: 100;
 `;
 
 const NavLink = styled.div`

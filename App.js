@@ -11,12 +11,18 @@ const AppWrapper = styled.div`
   background-color: #fff;
 `;
 
+const ContentContainer = styled.div`
+
+`;
+
 class App extends Component {
   render() {
     return (
       <AppWrapper>
         <ChaoHeader></ChaoHeader>
-        <Footer></Footer>
+        <ContentContainer>
+          <Footer></Footer>
+        </ContentContainer>
       </AppWrapper>
     );
   }

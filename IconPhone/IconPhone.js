@@ -3,7 +3,7 @@ import faPhoneSquare from '@fortawesome/fontawesome-pro/svgs/regular/phone-squar
 import styled from 'styled-components';
 
 const NavIcon = styled.img`
-	max-width: 8vw;
+	max-width: 40px;
 	height: auto;
 	width: auto;
 	display: block;
@@ -11,7 +11,7 @@ const NavIcon = styled.img`
 `;
 
 const NavIconContainer = styled.div`
-	height: 10vw;
+	height: 50px;
 	text-align: center;
 	margin-bottom: 5px;
 	display: flex;
