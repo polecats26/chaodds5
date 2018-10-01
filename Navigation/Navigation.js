@@ -9,13 +9,14 @@ import IconOfficeHours from '../IconOfficeHours/IconOfficeHours';
 
 const NavContainer = styled.div`
 	width: 100%;
-	display: fixed;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 	background-color: #fff;
 	border-top: thin solid #ccc;
 	@media (min-width: 769px) {
+		background: transparent;
 		width: auto;
 		position: relative;
 		float: right;
@@ -41,6 +42,7 @@ const NavLink = styled.div`
 		flex: 1;
 		font-size: .5rem;
 		text-transform: uppercase;
+		color: #000;
 	}
 `;
 
@@ -61,6 +63,7 @@ const PhoneNumber = styled.span`
 		flex: 1;
 		font-size: .5rem;
 		text-transform: uppercase;
+		color: #000;
 	}
 `;
 

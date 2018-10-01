@@ -8,9 +8,6 @@ import './Footer.css'
 const FooterContainer = styled.div`
     background-color: #222;
     padding: 2rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     box-sizing: border-box;
     @media (max-width: 768px) {
